@@ -1,0 +1,516 @@
+* 
+{
+    margin: 0;                            /*#F4D529, E3E3E3, 575757, 949494*/
+    padding: 0;
+}
+body 
+{
+    font-family: sans-serif;
+}
+
+/* -----Navbar------ */
+#nav-bar
+{
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+.navbar 
+{
+    background-image: linear-gradient(to right, #252A37,  #252A37); 
+    padding: 0 !important;
+}
+.navbar-brand img 
+{
+    height: 50px;
+    padding-left: 20px;
+}
+.navbar-nav li
+{
+    padding: 0 10px;
+}
+.navbar-nav li a
+{
+    color: #fff !important;
+    font-weight: 400;
+    float: right;
+    text-align: left;
+}
+.fa-bars
+{
+    color: #fff;
+    font-size: 30px !important;
+}
+.navbar-toggler
+{
+    outline: 0 !important;
+}
+
+/* -------Header section------- */
+#banner
+{
+    background-image: linear-gradient(to right, #252A37,  #252A37); 
+    color: #fff;
+    padding-top: 5%;
+}
+.header-tittle
+{
+    font-size: 40px;
+    font-weight: 600;
+    margin-top: 100px;
+}
+.lg-btn
+{
+    margin: auto 0 20px 0;
+}
+.lg-btn img
+{
+    width: 30px;
+    margin: auto;
+}
+.img-fluid
+{
+    margin-top: 100px;
+    height: 200px;
+    width: 200px;
+}
+.bottom-img
+{
+    width: 100%;
+}
+
+/*-------Services Section-------*/
+
+#services
+{
+    padding: 80px 0;
+}
+.services-img
+{
+    width: 100px;
+    margin-top: 20px;
+}
+.services
+{
+    padding: 20px;
+}
+.services h4
+{
+    padding: 5px;
+    margin-top: 25px;
+    text-transform: uppercase;
+}
+.tittle::before
+{
+    content: '';
+    background: #F4D529 ;
+    height: 5px;
+    width: 200px;
+    margin: 0 auto 0 auto;
+    display: block;
+    transform: translateY(63px);
+}
+.tittle::after
+{
+    content: '';
+    background: #F4D529 ;
+    height: 10px;
+    width: 50px;
+    margin: 0 auto 40px auto;
+    display: block;
+    transform: translateY(8px);
+}
+#services .btn-primary
+{
+    box-shadow: none;
+    padding: 8px 25px;
+    border: none;
+    border-radius: 20px;
+    background-image: linear-gradient(to right, #575757,  #252A37);
+}
+
+/* --------Activities Section--------- */
+
+#activities
+{
+    padding: 80px 0;
+    background: #f9f8fa;
+    padding-bottom: 50px;
+}
+.activities-img
+{
+    width: 100px;
+    margin-top: 20px;
+}
+.activities
+{
+    padding: 20px;
+}
+.activities h4
+{
+    padding: 5px;
+    margin-top: 25px;
+    text-transform: uppercase;
+}
+#activities .btn-primary
+{
+    box-shadow: none;
+    padding: 8px 25px;
+    border: none;
+    border-radius: 20px;
+    background-image: linear-gradient(to right, #575757,  #252A37);
+}
+
+/* -- ------Social Media Section------- --*/
+
+#social-media
+{
+    background: #fff;
+    padding: 100px 0;
+}
+.social-media
+{
+    font-size: 36px;
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+.social-icons img
+{
+    width: 60px;
+    transition: 0.5s;
+} 
+.social-icons a:hover img
+{
+    transform: translateY(-10px);
+}
+
+/* --------Footer Section--------- */
+
+#footer
+{
+    background-image: linear-gradient(to right, #252A37,  #252A37);
+    color: #fff; 
+}
+.footer-img
+{
+    width: 100%;
+}
+.footer-box
+{
+    padding: 0 0px 20px 0;
+}
+.footer-box img
+{
+    width: 120px;
+    margin-bottom: 20px;
+}
+.footer-box .fa
+{
+    margin-right: 8px;
+    margin-left: 8px;
+    font-size: 15px;
+    height: 40px;
+    width: fit-content;
+    text-align: center;
+    padding-top: 10px;
+    border-radius: 2px;
+    background-image: linear-gradient(to right, #252A37,  #252A37);
+} 
+.footer-box .form-control
+{
+    box-shadow: none !important;
+    border: none;
+    border-radius: 0;
+    margin-top: 25px;
+    max-width: 250px;
+}
+.footer-box .btn-primary
+{
+    box-shadow: none !important;
+    border: none;
+    border-radius: 0;
+    margin-top: 30px;
+    background-image: linear-gradient(to right, #575757,  #252A37);
+}
+hr
+{
+    background-color: #fff;
+}
+.copyright
+{
+    margin-bottom: 0;
+    padding-bottom: 20px;
+    text-align: center;
+}
+
+/* ---Login Form---- */
+#login
+*{
+    margin: 0;
+    padding: 0;
+}
+.hero
+{
+    height: 90%;
+    width: 100%;
+    background-image: linear-gradient(rgba(6, 16, 59, 0.856),rgba(0,0,0,0.4)),url(banner.jpg);
+    background-position: center;
+    background-size: cover;
+    position: absolute;
+}
+.form-box2{
+    width: 300px;
+    height: 400px;
+    position: relative;
+    margin: 4% auto !important;
+    background: #252A37;
+    padding: 15px !important;
+}
+.input-field2
+{
+    width: 100%;
+    padding: 10 0 !important;
+    margin: 5px 0 !important;
+    border-left: 0;
+    border-top: 0;
+    border-right: 0;
+    border-bottom: 1px solid #fff;
+    outline: none;
+    background: transparent;
+} 
+.regis
+{
+    font-size: small;
+    color: white;
+}
+.new-account
+{
+        padding: 0 0 10 0;
+        font-size: small;
+        text-align: justify;
+        color: #46a5e0;
+        text-decoration: none;
+}
+.btn-login
+{
+    width: 50%;
+    padding: 10px 30px !important;
+    cursor: pointer;
+    display: block;
+    margin: 30px auto !important;
+    background-image: linear-gradient(to right, #575757,  #252A37);
+    border: 0;
+    outline: none;
+    border-radius: 30px;
+    color: #fff;
+    outline: 0 !important;
+}
+
+/* Form Register */ 
+#register
+*{
+    margin: 0;
+    padding: 0;
+}
+.hero
+{
+    height: 90%;
+    width: 100%;
+    background-image: linear-gradient(rgba(6, 16, 59, 0.856),rgba(0,0,0,0.4)),url(assets/images/banner.jpg);
+    background-position: center;
+    background-size: cover;
+    position: absolute;
+}
+.form-box{
+    width: 350px;
+    height: 480px;
+    position: relative;
+    margin: 4% auto !important;
+    background: #252A37;
+    padding: 15px !important;
+}
+.button-box
+{
+    width: 210px;
+    margin: auto !important;
+    position: relative;
+    box-shadow: 0 0 20px 9px #252A37;
+    border-radius: 30px;
+}
+.toggle-btn
+{
+    padding: 10px 30px !important;
+    cursor: pointer;
+    background: transparent;
+    border: 0;
+    outline: none;
+    position: relative;
+    color: #fff;
+    left: 22%;
+    outline: 0 !important;
+} 
+#btn{
+    top: 0;
+    left: 25%;
+    position: absolute;
+    width: 110px;
+    height: 100%;
+    background-image: linear-gradient(to right, #575757,  #252A37);
+    border-radius: 30px;
+    transition: .5s;
+}
+.social-icons2
+{
+    margin: 30px auto !important;
+    text-align: center;
+}
+.social-icons2 img
+{
+    width: 30px;
+    margin:  0 12px !important;
+    box-shadow: 0 0 20px 0 #252A37;
+    cursor: pointer;
+    border-radius: 50%;
+}
+.input-group
+{
+    top: 30px !important;
+    position: absolute ;
+    width: 280px;
+    transition: .5s;
+    color: #fff;
+}
+.input-field
+{
+    width: 100%;
+    padding: 10 0 !important;
+    margin: 5px 0 !important;
+    border-left: 0;
+    border-top: 0;
+    border-right: 0;
+    border-bottom: 1px solid #fff;
+    outline: none;
+    background: transparent;
+    color: #fff;
+} 
+.btn-daftar
+{
+    width: 50%;
+    padding: 10px 30px !important;
+    cursor: pointer;
+    display: block;
+    margin: 50px auto !important;
+    background-image: linear-gradient(to right, #575757,  #252A37);
+    border: 0;
+    outline: none;
+    border-radius: 30px;
+    color: #fff;
+    outline: 0 !important;
+}
+.check-box
+{
+    margin: 10px 10px 30px 0 !important;
+}
+span
+{
+    color: #fff;
+    left: 22px;
+    font-size: 12px;
+    bottom:119px;
+    position: absolute;
+}
+
+/* ----------Join Us------------- */
+#joinus
+*{
+    margin: 0;
+    padding: 0;
+}
+.hero1
+{
+    height: 90%;
+    width: 100%;
+    background-image: linear-gradient(rgba(6, 16, 59, 0.856),rgba(0,0,0,0.4)),url(assets/images/banner.jpg);
+    background-position: center;
+    background-size: cover;
+    position: absolute;
+}
+.form-box1{
+    width: 300px;
+    height: 300px;
+    position: relative;
+    margin: 4% auto !important;
+    background: #252A37;
+    padding: 15px !important;
+}
+.button-box2
+{
+    width: 210px;
+    margin: auto !important;
+    position: relative;
+    box-shadow: 0 0 20px 9px #252A37;
+    border-radius: 30px;
+}
+.toggle-btn
+{
+    padding: 10px 30px !important;
+    cursor: pointer;
+    background: transparent;
+    border: 0;
+    outline: none;
+    position: relative;
+    color: #fff;
+    left: 22%;
+    outline: 0 !important;
+} 
+#btn1{
+    top: 0;
+    left: 25%;
+    position: absolute;
+    width: 110px;
+    height: 100%;
+    background-image: linear-gradient(to right, #575757,  #252A37);
+    border-radius: 30px;
+    transition: .5s;
+}
+.social-icons1
+{
+    margin: 30px auto !important;
+    text-align: center;
+}
+.social-icons1 img
+{
+    width: 30px;
+    margin:  0 12px !important;
+    box-shadow: 0 0 20px 0 #252A37;
+    cursor: pointer;
+    border-radius: 50%;
+}
+.btn-login1
+{
+    width: 100% !important;
+    padding: 10px 30px !important;
+    cursor: pointer;
+    display: block;
+    margin: 0px 43px !important;
+    background-image: linear-gradient(to right, #575757,  #252A37);
+    border: 0;
+    outline: none;
+    border-radius: 30px;
+    color: #fff;
+    outline: 0 !important;
+}
+.btn-signup1
+{
+    width: 95% !important;
+    padding: 10px 30px !important;
+    cursor: pointer;
+    display: block;
+    margin: 7px 43px !important;
+    background-image: linear-gradient(to right, #575757,  #252A37);
+    border: 0;
+    outline: none;
+    border-radius: 30px;
+    color: #fff;
+    outline: 0 !important;
+}
